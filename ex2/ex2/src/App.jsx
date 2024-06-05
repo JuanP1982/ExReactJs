@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Relogiofunc from './components/Relogio/Relogio';
+import {Relogiofunc} from './components/Relogio/Relogio';
 
 const App = () => {
   return (
