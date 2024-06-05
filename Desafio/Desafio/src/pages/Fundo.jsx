@@ -13,7 +13,7 @@ export function MudarFundo(){
     const [fundo, setFundo] = useState(0)
     
     const altera = () => {
-        const novaCor = (fundo + 1) 
+        const novaCor = (fundo + 1) % listaFundos.length
         setFundo(novaCor)
         document.body.style.backgroundColor = listaFundos[novaCor]
         console.log(listaFundos[novaCor]);
